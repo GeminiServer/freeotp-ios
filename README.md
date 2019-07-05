@@ -13,6 +13,12 @@ FreeOTP implements open standards:
 This means that no proprietary server-side component is necessary: use any server-side component
 that implements these standards.
 
+## Building with xCode
+Clone this repo and after cloning go to the path and execute carthage update. (We need Base32 and moa framework.)
+```sh
+carthage update --platform ios
+```
+
 ## Download FreeOTP for iOS
 
 * [App Store](https://itunes.apple.com/us/app/freeotp-authenticator/id872559395?mt=8)
