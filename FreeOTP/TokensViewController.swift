@@ -99,6 +99,10 @@ class TokensViewController : UICollectionViewController, UICollectionViewDelegat
         )
     }
 
+    @IBAction func InfoClicked(_ sender: UIBarButtonItem) {
+       let vc: UIViewController = self.next("scan", sender: sender, dir: [.up, .down])
+    }
+    
     @IBAction func editClicked(_ sender: TokenButton) {
         let evc: EditViewController = self.next("edit", sender: sender, dir: [.left, .right])
         evc.token = sender.token

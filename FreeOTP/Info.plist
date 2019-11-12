@@ -39,6 +39,8 @@
 	<true/>
 	<key>NSBluetoothPeripheralUsageDescription</key>
 	<string>$(PRODUCT_NAME) requests access to Bluetooth to share token codes</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>$(PRODUCT_NAME) requests access to Bluetooth to share token codes</string>
 	<key>NSCameraUsageDescription</key>
 	<string>$(PRODUCT_NAME) requires access to the camera to scan a QR code for token import</string>
 	<key>NSPhotoLibraryUsageDescription</key>
